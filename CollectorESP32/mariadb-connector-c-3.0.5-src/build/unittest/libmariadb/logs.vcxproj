@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{89B0EA97-DE8C-3E2C-92B7-042AFA378945}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>logs</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\unittest\libmariadb\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">logs.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">logs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\unittest\libmariadb\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">logs.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">logs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\unittest\libmariadb\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">logs.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">logs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\unittest\libmariadb\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">logs.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">logs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\mytap;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_DLOPEN;_CRT_SECURE_NO_WARNINGS;HAVE_SCHANNEL;HAVE_TLS;LIBMARIADB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;HAVE_DLOPEN;_CRT_SECURE_NO_WARNINGS;HAVE_SCHANNEL;HAVE_TLS;LIBMARIADB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\mytap;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\mytap;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\mytap\Debug\cctap.lib;Debug\ma_getopt.lib;..\..\libmariadb\Debug\mariadbclient.lib;ws2_32.lib;advapi32.lib;kernel32.lib;shlwapi.lib;crypt32.lib;secur32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build/unittest/libmariadb/Debug/logs.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build/unittest/libmariadb/Debug/logs.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\mytap;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;HAVE_DLOPEN;_CRT_SECURE_NO_WARNINGS;HAVE_SCHANNEL;HAVE_TLS;LIBMARIADB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;HAVE_DLOPEN;_CRT_SECURE_NO_WARNINGS;HAVE_SCHANNEL;HAVE_TLS;LIBMARIADB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\mytap;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\mytap;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\mytap\Release\cctap.lib;Release\ma_getopt.lib;..\..\libmariadb\Release\mariadbclient.lib;ws2_32.lib;advapi32.lib;kernel32.lib;shlwapi.lib;crypt32.lib;secur32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build/unittest/libmariadb/Release/logs.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build/unittest/libmariadb/Release/logs.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\mytap;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_DLOPEN;_CRT_SECURE_NO_WARNINGS;HAVE_SCHANNEL;HAVE_TLS;LIBMARIADB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_DLOPEN;_CRT_SECURE_NO_WARNINGS;HAVE_SCHANNEL;HAVE_TLS;LIBMARIADB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\mytap;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\mytap;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\mytap\MinSizeRel\cctap.lib;MinSizeRel\ma_getopt.lib;..\..\libmariadb\MinSizeRel\mariadbclient.lib;ws2_32.lib;advapi32.lib;kernel32.lib;shlwapi.lib;crypt32.lib;secur32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build/unittest/libmariadb/MinSizeRel/logs.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build/unittest/libmariadb/MinSizeRel/logs.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\mytap;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;HAVE_DLOPEN;_CRT_SECURE_NO_WARNINGS;HAVE_SCHANNEL;HAVE_TLS;LIBMARIADB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;HAVE_DLOPEN;_CRT_SECURE_NO_WARNINGS;HAVE_SCHANNEL;HAVE_TLS;LIBMARIADB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\mytap;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\mytap;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\mytap\RelWithDebInfo\cctap.lib;RelWithDebInfo\ma_getopt.lib;..\..\libmariadb\RelWithDebInfo\mariadbclient.lib;ws2_32.lib;advapi32.lib;kernel32.lib;shlwapi.lib;crypt32.lib;secur32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build/unittest/libmariadb/RelWithDebInfo/logs.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build/unittest/libmariadb/RelWithDebInfo/logs.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/unittest/libmariadb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src -BC:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build --check-stamp-file C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build/unittest/libmariadb/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/unittest/libmariadb/CMakeLists.txt;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb\CMakeLists.txt;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\unittest\libmariadb\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/unittest/libmariadb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src -BC:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build --check-stamp-file C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build/unittest/libmariadb/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/unittest/libmariadb/CMakeLists.txt;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb\CMakeLists.txt;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\unittest\libmariadb\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/unittest/libmariadb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src -BC:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build --check-stamp-file C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build/unittest/libmariadb/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/unittest/libmariadb/CMakeLists.txt;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb\CMakeLists.txt;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\unittest\libmariadb\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/unittest/libmariadb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src -BC:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build --check-stamp-file C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build/unittest/libmariadb/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/unittest/libmariadb/CMakeLists.txt;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb\CMakeLists.txt;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\unittest\libmariadb\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\unittest\libmariadb\logs.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\ZERO_CHECK.vcxproj">
+      <Project>{9886D3E1-48E7-3F75-BA79-8B135620EE63}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\unittest\mytap\cctap.vcxproj">
+      <Project>{F53B5D6A-5A4D-3907-9FE2-0807CF773E65}</Project>
+      <Name>cctap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\unittest\libmariadb\ma_getopt.vcxproj">
+      <Project>{48E6D412-400B-3125-9638-1B4EDA2C1F4B}</Project>
+      <Name>ma_getopt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\libmariadb\mariadbclient.vcxproj">
+      <Project>{D0ABC7BD-B75B-3094-8819-E5B13CAE92C0}</Project>
+      <Name>mariadbclient</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

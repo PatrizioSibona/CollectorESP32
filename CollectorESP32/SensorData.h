@@ -9,6 +9,7 @@ using namespace std;
 
 class SensorData {
 private:
+	char IDboard;
 	int channel;
 	int RSSI;
 	int seconds;
@@ -18,7 +19,8 @@ private:
 	string SSID;
 
 public:
-	SensorData(int c, int rssi, int sec, int usec, string s, string seq_ctrl, string ssid);
+	SensorData(char IDboard, int c, int rssi, int sec, int usec, string s, string seq_ctrl, string ssid);
 	virtual ~SensorData();
 	void printData();
+	string createValues();
 };

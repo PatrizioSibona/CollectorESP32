@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D0ABC7BD-B75B-3094-8819-E5B13CAE92C0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>mariadbclient</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\libmariadb\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mariadbclient.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mariadbclient</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\libmariadb\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mariadbclient.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mariadbclient</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\libmariadb\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">mariadbclient.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">mariadbclient</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\libmariadb\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">mariadbclient.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">mariadbclient</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win-iconv;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ENABLED_LOCAL_INFILE;HAVE_COMPRESS;LIBMARIADB;THREAD;HAVE_DLOPEN;_CRT_SECURE_NO_WARNINGS;HAVE_SCHANNEL;HAVE_TLS;SIZEOF_CHARP=4;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;ENABLED_LOCAL_INFILE;HAVE_COMPRESS;LIBMARIADB;THREAD;HAVE_DLOPEN;_CRT_SECURE_NO_WARNINGS;HAVE_SCHANNEL;HAVE_TLS;SIZEOF_CHARP=4;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win-iconv;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win-iconv;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win-iconv;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;ENABLED_LOCAL_INFILE;HAVE_COMPRESS;LIBMARIADB;THREAD;HAVE_DLOPEN;_CRT_SECURE_NO_WARNINGS;HAVE_SCHANNEL;HAVE_TLS;SIZEOF_CHARP=4;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;ENABLED_LOCAL_INFILE;HAVE_COMPRESS;LIBMARIADB;THREAD;HAVE_DLOPEN;_CRT_SECURE_NO_WARNINGS;HAVE_SCHANNEL;HAVE_TLS;SIZEOF_CHARP=4;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win-iconv;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win-iconv;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win-iconv;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENABLED_LOCAL_INFILE;HAVE_COMPRESS;LIBMARIADB;THREAD;HAVE_DLOPEN;_CRT_SECURE_NO_WARNINGS;HAVE_SCHANNEL;HAVE_TLS;SIZEOF_CHARP=4;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENABLED_LOCAL_INFILE;HAVE_COMPRESS;LIBMARIADB;THREAD;HAVE_DLOPEN;_CRT_SECURE_NO_WARNINGS;HAVE_SCHANNEL;HAVE_TLS;SIZEOF_CHARP=4;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win-iconv;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win-iconv;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win-iconv;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;ENABLED_LOCAL_INFILE;HAVE_COMPRESS;LIBMARIADB;THREAD;HAVE_DLOPEN;_CRT_SECURE_NO_WARNINGS;HAVE_SCHANNEL;HAVE_TLS;SIZEOF_CHARP=4;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;ENABLED_LOCAL_INFILE;HAVE_COMPRESS;LIBMARIADB;THREAD;HAVE_DLOPEN;_CRT_SECURE_NO_WARNINGS;HAVE_SCHANNEL;HAVE_TLS;SIZEOF_CHARP=4;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win-iconv;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\include;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win-iconv;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/libmariadb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src -BC:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build --check-stamp-file C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build/libmariadb/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/libmariadb/CMakeLists.txt;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\CMakeLists.txt;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\cmake\sign.cmake;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_client_plugin.c.in;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\cmake\export.cmake;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win\resource.rc.in;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\cmake\symlink.cmake;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\libmariadb\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/libmariadb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src -BC:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build --check-stamp-file C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build/libmariadb/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/libmariadb/CMakeLists.txt;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\CMakeLists.txt;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\cmake\sign.cmake;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_client_plugin.c.in;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\cmake\export.cmake;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win\resource.rc.in;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\cmake\symlink.cmake;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\libmariadb\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/libmariadb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src -BC:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build --check-stamp-file C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build/libmariadb/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/libmariadb/CMakeLists.txt;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\CMakeLists.txt;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\cmake\sign.cmake;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_client_plugin.c.in;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\cmake\export.cmake;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win\resource.rc.in;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\cmake\symlink.cmake;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\libmariadb\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/libmariadb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src -BC:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build --check-stamp-file C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/build/libmariadb/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/libmariadb/CMakeLists.txt;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\CMakeLists.txt;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\cmake\sign.cmake;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_client_plugin.c.in;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\cmake\export.cmake;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win\resource.rc.in;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\cmake\symlink.cmake;C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\libmariadb\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth\my_auth.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\auth\old_password.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\plugins\pvio\pvio_socket.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_array.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_charset.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_hash.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_net.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\mariadb_charset.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_time.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_default.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_errmsg.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\mariadb_lib.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_list.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_pvio.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_tls.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_alloc.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_compress.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_init.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_password.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_ll2str.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_sha1.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\mariadb_stmt.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_loaddata.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_stmt_codec.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_string.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_dtoa.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\libmariadb\ma_client_plugin.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_io.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\secure\schannel.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\secure\ma_schannel.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\win-iconv\win_iconv.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib\adler32.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib\compress.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib\crc32.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib\deflate.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib\gzclose.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib\gzlib.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib\gzread.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib\gzwrite.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib\infback.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib\inffast.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib\inflate.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib\inftrees.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib\trees.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib\uncompr.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\zlib\zutil.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\mariadb_dyncol.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\mariadb_async.c" />
+    <ClCompile Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\libmariadb\ma_context.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\user\Desktop\mariadbclient\MariaDbClient\MariaDbClient\mariadb-connector-c-3.0.5-src\build\ZERO_CHECK.vcxproj">
+      <Project>{9886D3E1-48E7-3F75-BA79-8B135620EE63}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

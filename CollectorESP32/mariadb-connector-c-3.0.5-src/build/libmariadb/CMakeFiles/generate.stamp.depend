@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/libmariadb/CMakeLists.txt
+C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/cmake/sign.cmake
+C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/libmariadb/ma_client_plugin.c.in
+C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/cmake/export.cmake
+C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/win/resource.rc.in
+C:/Users/user/Desktop/mariadbclient/MariaDbClient/MariaDbClient/mariadb-connector-c-3.0.5-src/cmake/symlink.cmake

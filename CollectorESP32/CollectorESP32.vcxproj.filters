@@ -36,4 +36,10 @@
       <Filter>File di origine</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="libmariadb.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libmariadb.lib" />
+  </ItemGroup>
 </Project>
