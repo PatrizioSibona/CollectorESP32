@@ -23,7 +23,7 @@ void SensorData::printData() {
 	errno_t result = localtime_s(&timeinfo, &rawtime);
 	asctime_s(buffer, buffer_size, &timeinfo);
 
-	cout << "PACKET TYPE=PROBE IDboard= " << IDboard << "CHAN=" << channel << " RSSI=" << RSSI
+	cout << "PACKET TYPE=PROBE IDboard= " << IDboard << " CHAN=" << channel << " RSSI=" << RSSI
 		<< " ADDR=" << source << " SEQ=" << sequence_ctrl
 		<< " SSID=" << SSID  << " Time= " << buffer << endl;
 
