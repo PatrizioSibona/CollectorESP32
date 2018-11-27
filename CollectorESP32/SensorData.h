@@ -17,9 +17,10 @@ private:
 	string source;
 	string sequence_ctrl;
 	string SSID;
+	string tags;
 
 public:
-	SensorData(char IDboard, int c, int rssi, int sec, int usec, string s, string seq_ctrl, string ssid);
+	SensorData(char IDboard, int c, int rssi, int sec, int usec, string s, string seq_ctrl, string ssid, string str_tag);
 	virtual ~SensorData();
 	void printData();
 	string createValues();

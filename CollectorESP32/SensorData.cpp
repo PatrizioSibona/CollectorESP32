@@ -4,8 +4,8 @@
 
 using namespace std;
 
-SensorData::SensorData(char IDboard, int c, int rssi, int sec, int usec, string s, string seq_ctrl, string ssid) :
-	IDboard(IDboard), channel(c), RSSI(rssi), seconds(sec), useconds(usec), source(s), sequence_ctrl(seq_ctrl), SSID(ssid) {
+SensorData::SensorData(char IDboard, int c, int rssi, int sec, int usec, string s, string seq_ctrl, string ssid, string str_tag) :
+	IDboard(IDboard), channel(c), RSSI(rssi), seconds(sec), useconds(usec), source(s), sequence_ctrl(seq_ctrl), SSID(ssid), tags(str_tag) {
 
 }
 
@@ -25,7 +25,7 @@ void SensorData::printData() {
 
 	cout << "PACKET TYPE=PROBE IDboard= " << IDboard << " CHAN=" << channel << " RSSI=" << RSSI
 		<< " ADDR=" << source << " SEQ=" << sequence_ctrl
-		<< " SSID=" << SSID  << " Time= " << buffer << endl;
+		<< " SSID=" << SSID  << " Time= " << buffer << "TAGS= " << tags << endl;
 
 	return;
 }
@@ -45,7 +45,8 @@ string SensorData::createValues() {
 
 	hash << buffer << " " << source << " " << sequence_ctrl << " " << SSID;
 
-	str << "('" << IDboard << "','" << hash.str() << "','" << source << "','" << SSID << "','" << buffer << "','" << RSSI << "','" << channel << "','" << sequence_ctrl << "')";
+	str << "('" << IDboard << "','" << hash.str() << "','" << source << "','" << SSID << "','" << buffer << "','" << RSSI << "','" << channel << "','" << sequence_ctrl << "', MD5('" << tags << "'))";
 
 	return str.str();
 }
+
