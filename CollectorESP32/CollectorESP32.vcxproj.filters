@@ -29,10 +29,10 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
-    <ClCompile Include="CollectorESP32.cpp">
+    <ClCompile Include="SensorData.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
-    <ClCompile Include="SensorData.cpp">
+    <ClCompile Include="CollectorESP32.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
   </ItemGroup>
